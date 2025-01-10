@@ -36,6 +36,7 @@
   <ItemGroup>
     <ProjectReference Include="..\SukiUI.Dock\SukiUI.Dock.csproj" />
     <ProjectReference Include="..\SukiUI\SukiUI.csproj" />
+    <ProjectReference Include="..\SukiGCS.Maps\SukiGCS.Maps.csproj" />
   </ItemGroup>
 
   <ItemGroup>

@@ -6,7 +6,7 @@ using SukiUI.Demo.Services;
 
 namespace SukiUI.Demo.Features.Splash;
 
-public partial class SplashViewModel(PageNavigationService nav) : DemoPageBase("Welcome", MaterialIconKind.Hand, int.MinValue)
+public partial class SplashViewModel(PageNavigationService nav) : DemoPageBase("Welcome", MaterialIconKind.Hand, -1)
 {
     [ObservableProperty] private bool _dashBoardVisited;
     

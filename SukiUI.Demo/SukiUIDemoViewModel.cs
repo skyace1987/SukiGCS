@@ -62,6 +62,9 @@ public partial class SukiUIDemoViewModel : ObservableObject
         BackgroundStyles = new AvaloniaList<SukiBackgroundStyle>(Enum.GetValues<SukiBackgroundStyle>());
         _theme = SukiTheme.GetInstance();
         
+        // 设置默认页面为地图页面
+        ActivePage = DemoPages.First();
+        
         // Subscribe to the navigation service (when a page navigation is requested)
         pageNavigationService.NavigationRequested += pageType =>
         {
